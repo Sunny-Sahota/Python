@@ -54,4 +54,3 @@ my_num = -4
 print(abs(my_num)) # Absolute value
 print(pow(3,2))
 print(max(4,5,6,7)) # min, round
-
