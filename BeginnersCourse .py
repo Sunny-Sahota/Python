@@ -1,3 +1,5 @@
+from math import *
+
 #Drawing a Shape 
 
 shape = "pep"
@@ -54,3 +56,13 @@ my_num = -4
 print(abs(my_num)) # Absolute value
 print(pow(3,2))
 print(max(4,5,6,7)) # min, round
+
+#must use math library for these functions 
+x = sqrt(37)
+print(round(x,3))
+
+#getting an input from user , using a prompt
+
+name = input("Enter you name: ")
+age = input("Enter age")
+print("hello "+ name + "!" + "you are " + age + " yrs old.")
