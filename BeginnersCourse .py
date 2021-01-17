@@ -63,6 +63,68 @@ print(round(x,3))
 
 #getting an input from user , using a prompt
 
-name = input("Enter you name: ")
-age = input("Enter age")
-print("hello "+ name + "!" + "you are " + age + " yrs old.")
+#name = input("Enter you name: ")
+#age = input("Enter age: ")
+#print("hello "+ name + "!" + "you are " + age + " yrs old.")
+
+#Lists, indexed starting from 0
+food = ["Apple", False, "Pizza", "Ice-cream", 156 ]
+
+#To get the value at the back of the list 
+print(food[-1])
+#Get value from list, and everything after 
+print(food[2:])
+
+food[1] = True
+#Get values in range, 1 to < 4
+print(food[1:4])
+
+##List Functions
+lucky_numbers = [3,6,9,3,5]
+animals = ["Dog", "Parrot", "Cat" , "Dog", "Fish"]
+
+animals.extend(lucky_numbers)
+animals.append("Batman")
+animals.insert(2, "whale")
+animals.remove("Cat")
+#lucky_numbers.clear()
+
+#Removes last element in list 
+animals.pop() 
+
+print(animals.index("Parrot"))
+print(animals.count("Dog"))
+
+lucky_numbers.sort() # Ascending
+lucky_numbers.reverse()
+print(lucky_numbers)
+
+animals2 = animals.copy()
+
+##Tuples
+#imutable , cant be changed or modified 
+#coordinates = (4 , 5)
+coordinates = [(4, 5), (6 , 7), (134 , 56)]
+
+print(coordinates[1])
+
+#Functions
+
+def say_hi(name, age):
+    print("Hello " + name + " you are "+ age)
+
+say_hi("Mike", "67")
+
+def cube(num):
+    return num*num*num
+
+result = cube(4)
+print(result)
+
+is_male = True
+is_tall = True
+
+if is_male or is_tall:
+    print("Is a male")
+else:
+    print("Is not male")
