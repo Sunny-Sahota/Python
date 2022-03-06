@@ -35,4 +35,5 @@ tls port : 587
 ### Refrences
 The reference we are using for this project is : https://realpython.com/python-send-email/
 Test Dummy email : development2048@gmail.com 15181848
+Test Dummy Receiver : developmentRecive12@gmail.com 3465457568
 
