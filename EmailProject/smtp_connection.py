@@ -19,9 +19,10 @@ context = ssl.create_default_context()
 with smtplib.SMTP_SSL("smtp.gmail.com", port , context= context) as server:
     server.login(sender_email, password)
     server.sendmail(sender_email, receiver_email , message)
-
-
-
     
-    #Email information 
+    #Handler needed
+    #2FA , mfa service 
+    #function to retrive server information 
+    #EmailString needs to be a list , Json 
+    
     
