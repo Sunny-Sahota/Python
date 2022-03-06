@@ -1,3 +1,5 @@
-def EmailString():
+import email
 
-    return("|\---/|"/n"| o_o |"/n"\_^_/")
+
+def EmailString():
+    return "|\---/|/n| o_o |/n\_^_/"
