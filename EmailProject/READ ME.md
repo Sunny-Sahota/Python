@@ -25,11 +25,20 @@
 ### SMTP server information 
 
 smtp.gmail.com
-ssl - yes
-tls - yes
-auth - yes
-port : 465
-tls port : 587
+
+| Vairable | Value |
+| ssl | yes |
+| tls | yes |
+| auth | yes |
+| port | 465 |
+| tls port | 587 |
+| ssl port | 465 |
+ 
+### To do list 
+Handler needed
+2FA , mfa service 
+function to retrive server information 
+
 
 
 ### Refrences
